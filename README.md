@@ -1,7 +1,7 @@
 # SoftUni Java Advanced Course - May 2023
 <strong>Description:</strong> the repo is used to store and share accross devices the independently developed code related to the academic course
 
-## Course Subjects
+## Course Themes
 - Java Advanced - May 2023
 - Java OOP - Jube 2023
 
