@@ -28,4 +28,4 @@
 
 ### Course Topic List
 
-![Java OOP Course Topic List]([https://github.com/idaki/SoftUni_Java_Fundamentals_Course/blob/main/Topics.png](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/main/Java%20OOP%20Topics.png))
+![Java OOP Course Topic List](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/055f42764fa9b765e725dd62c3db9a0f566a8ce5/Java%20OOP%20Topics.png)
