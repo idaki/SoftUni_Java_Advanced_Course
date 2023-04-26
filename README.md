@@ -3,7 +3,7 @@
 
 ## Course Themes
 - Java Advanced - May 2023
-- Java OOP - Jube 2023
+- Java OOP - June 2023
 
 
 ### Java Advanced Course Objectives
