@@ -16,7 +16,7 @@
 
 ### Course Topic List
 
-![Java Adavnced Course Topic List](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/main/Java%20Advanced%20Topics.png)
+![Java Adavnced Course Topic List](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/5fb2875902968b4e5ffefc201e7c084053195fe7/Images/Java%20Advanced%20Topics.png)
 
 ### Java OOP Course Objectives
 - Working with linear data structures
@@ -28,4 +28,4 @@
 
 ### Course Topic List
 
-![Java OOP Course Topic List](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/055f42764fa9b765e725dd62c3db9a0f566a8ce5/Java%20OOP%20Topics.png)
+![Java OOP Course Topic List](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/5fb2875902968b4e5ffefc201e7c084053195fe7/Images/Java%20OOP%20Topics.png)
