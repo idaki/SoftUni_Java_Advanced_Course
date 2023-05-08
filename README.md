@@ -6,10 +6,10 @@
 - Java OOP - June 2023
 
 
-### Java Advanced Course
+### Java Advanced Course Agenda
 
 ![Java Adavnced Course Topic List](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/5fb2875902968b4e5ffefc201e7c084053195fe7/Images/Java%20Advanced%20Topics.png)
 
-### Java OOP Course Topic List
+### Java OOP Course Agenda
 
 ![Java OOP Course Topic List](https://github.com/idaki/SoftUni_Java_Advanced_Course/blob/5fb2875902968b4e5ffefc201e7c084053195fe7/Images/Java%20OOP%20Topics.png)
