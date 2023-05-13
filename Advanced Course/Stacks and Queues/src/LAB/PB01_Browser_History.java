@@ -8,24 +8,23 @@ public class PB01_Browser_History {
         Scanner scanner = new Scanner(System.in);
         String input = "";
         ArrayDeque<String> history = new ArrayDeque<>();
-        String current = "";
+        String print = "";
 
         while (!"Home".equals(input = scanner.nextLine())) {
 
             if (input.equals("back")) {
                 if (!history.isEmpty()) {
-                    current = history.pop();
+                    print = history.pop();
                 } else {
-                    System.out.println("no previous URLs");
-                    continue;
+                  print ="no previous URLs";
                 }
             } else {
-                if (!current.equals("")) {
-                    history.push(current);
-                }
-                current = input;
+               if (!print.equals("")) {
+                   history.push(print);
+               }
+                print = input;
             }
-            System.out.println(current);
+            System.out.println(print);
         }
 
     }
