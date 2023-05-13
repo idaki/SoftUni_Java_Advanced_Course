@@ -38,20 +38,7 @@
       <recent name="LAB" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PB05_Balanced_Parentheses">
-    <configuration name="PB01_Reverse_Numbers_with_a_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PB01_Reverse_Numbers_with_a_Stack" />
-      <module name="Stacks and Queues" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PB06_Recursive_Fibonacci">
     <configuration name="PB02_Basic_Stack_Operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercises.PB02_Basic_Stack_Operations" />
       <module name="Stacks and Queues" />
@@ -104,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PB06_Recursive_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB06_Recursive_Fibonacci" />
+      <module name="Stacks and Queues" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PB06_Recursive_Fibonacci" />
         <item itemvalue="Application.PB05_Balanced_Parentheses" />
         <item itemvalue="Application.PB04_Basic_Queue_Operations" />
         <item itemvalue="Application.PB03_Maximum_Element" />
         <item itemvalue="Application.PB02_Basic_Stack_Operations" />
-        <item itemvalue="Application.PB01_Reverse_Numbers_with_a_Stack" />
       </list>
     </recent_temporary>
   </component>
@@ -185,9 +185,9 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Exercises/PB05_Balanced_Parentheses.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/src/Exercises/PB06_Recursive_Fibonacci.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

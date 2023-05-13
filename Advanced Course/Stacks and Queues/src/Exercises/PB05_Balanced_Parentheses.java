@@ -8,49 +8,39 @@ public class PB05_Balanced_Parentheses {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char[] inputArr = scanner.nextLine().toCharArray();
-        ArrayDeque<Character> stack = new ArrayDeque<>();
-        ArrayDeque<Character> queue = new ArrayDeque<>();
+        ArrayDeque<Character> openingBrackets = new ArrayDeque<>();
+
 
         boolean isTrue = true;
 
 
-        for (int i = 0; i < inputArr.length ; i++) {
+        for (int i = 0; i < inputArr.length; i++) {
             char current = inputArr[i];
             if (current == '[' || current == '{' || current == '(') {
-                stack.push(current);
-            }else if((current == ']' || current == '}' || current == ')')) {
-                queue.offer(current);
-            }
-        }
-        if (stack.size() != queue.size()){
-            System.out.println("NO");
-            return;
-        }
+                openingBrackets.push(current);
+            } else {
+                if (openingBrackets.isEmpty()) {
+                    isTrue = false;
+                    break;
+                }
+                char opening = openingBrackets.pop();
+                if (current == '}' && opening != '{') {
+                    isTrue = false;
+                    break;
+                } else if (current == ']' && opening != '[') {
+                    isTrue = false;
+                    break;
+                } else if (current == ')' && opening != '(') {
+                    isTrue = false;
+                    break;
+                }
 
-        while (!stack.isEmpty()){
-        char currentStack= stack.pop();
-        char currentQueue = queue.poll();
-            if (currentStack == '{'){
-                if (currentQueue != '}'){
-                    isTrue = false;
-                    break;
-                }
-            } else if (currentStack == '[') {
-                if (currentQueue != ']'){
-                    isTrue = false;
-                    break;
-                }
-            } else if (currentStack == '(') {
-                if (currentQueue != ')'){
-                    isTrue = false;
-                    break;
-                }
             }
         }
 
-        if (isTrue){
+        if (isTrue) {
             System.out.println("YES");
-        }else{
+        } else {
             System.out.println("NO");
         }
 
