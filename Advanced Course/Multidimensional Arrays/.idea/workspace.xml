@@ -160,12 +160,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lab/PB07_Find_the_Real_Queen.java</url>
-          <line>48</line>
+          <line>45</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Lab/PB07_Find_the_Real_Queen.java</url>
-          <line>9</line>
+          <line>11</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
