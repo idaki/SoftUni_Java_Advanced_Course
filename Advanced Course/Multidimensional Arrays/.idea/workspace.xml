@@ -26,29 +26,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PB07_Find_the_Real_Queen">
-    <configuration name="PB03_Intersection_of_Two_Matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.PB03_Intersection_of_Two_Matrices" />
+  <component name="RunManager" selected="Application.PB04_04_Maximal_Sum">
+    <configuration name="PB01_Fill_the_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB01_Fill_the_Matrix" />
       <module name="Multidimensional Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB04_Sum_Matrix_Elements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.PB04_Sum_Matrix_Elements" />
+    <configuration name="PB02_Matrix_of_Palindromes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB02_Matrix_of_Palindromes" />
       <module name="Multidimensional Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB05_Maximum_Sum_of_2X2_Submatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.PB05_Maximum_Sum_of_2X2_Submatrix" />
+    <configuration name="PB03_Diagonal_Difference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB03_Diagonal_Difference" />
       <module name="Multidimensional Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB06_Print_Diagonals_of_Square_Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.PB06_Print_Diagonals_of_Square_Matrix" />
+    <configuration name="PB04_04_Maximal_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB04_04_Maximal_Sum" />
       <module name="Multidimensional Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PB04_04_Maximal_Sum" />
+        <item itemvalue="Application.PB03_Diagonal_Difference" />
+        <item itemvalue="Application.PB02_Matrix_of_Palindromes" />
+        <item itemvalue="Application.PB01_Fill_the_Matrix" />
         <item itemvalue="Application.PB07_Find_the_Real_Queen" />
-        <item itemvalue="Application.PB06_Print_Diagonals_of_Square_Matrix" />
-        <item itemvalue="Application.PB05_Maximum_Sum_of_2X2_Submatrix" />
-        <item itemvalue="Application.PB04_Sum_Matrix_Elements" />
-        <item itemvalue="Application.PB03_Intersection_of_Two_Matrices" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +167,16 @@
           <url>file://$PROJECT_DIR$/src/Lab/PB07_Find_the_Real_Queen.java</url>
           <line>11</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercises/PB01_Fill_the_Matrix.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercises/PB03_Diagonal_Difference.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
