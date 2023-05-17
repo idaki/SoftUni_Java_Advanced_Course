@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Advanced Course/Multidimensional Arrays/Multidimensional Arrays.iml" filepath="$PROJECT_DIR$/Advanced Course/Multidimensional Arrays/Multidimensional Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SoftUni_Java_Advanced_Course.iml" filepath="$PROJECT_DIR$/.idea/SoftUni_Java_Advanced_Course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Advanced Course/Stacks and Queues/Stacks and Queues.iml" filepath="$PROJECT_DIR$/Advanced Course/Stacks and Queues/Stacks and Queues.iml" />
+    </modules>
+  </component>
+</project>
