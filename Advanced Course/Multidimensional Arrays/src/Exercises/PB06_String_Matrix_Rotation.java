@@ -119,7 +119,6 @@ public class PB06_String_Matrix_Rotation {
                 }
             }
         }
-
         return matrix;
     }
 
