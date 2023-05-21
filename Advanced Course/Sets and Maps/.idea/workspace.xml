@@ -27,25 +27,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="LAB" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PB05_Average_Students_Grades">
-    <configuration name="PB01_Parking_Lot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB01_Parking_Lot" />
+  <component name="RunManager" selected="Application.PB06_Fix_Emails">
+    <configuration name="PB02_Sets_of_Elements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB02_Sets_of_Elements" />
       <module name="Sets and Maps" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB02_SoftUni_Party" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB02_SoftUni_Party" />
+    <configuration name="PB03_Periodic_Table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB03_Periodic_Table" />
       <module name="Sets and Maps" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB03_Voina_Number_Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB03_Voina_Number_Game" />
+    <configuration name="PB04_Count_Symbols" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB04_Count_Symbols" />
       <module name="Sets and Maps" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB04_Count_Real_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB04_Count_Real_Numbers" />
+    <configuration name="PB05_Phonebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB05_Phonebook" />
       <module name="Sets and Maps" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB05_Average_Students_Grades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB05_Average_Students_Grades" />
+    <configuration name="PB06_Fix_Emails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB06_Fix_Emails" />
       <module name="Sets and Maps" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PB05_Average_Students_Grades" />
-        <item itemvalue="Application.PB04_Count_Real_Numbers" />
-        <item itemvalue="Application.PB03_Voina_Number_Game" />
-        <item itemvalue="Application.PB02_SoftUni_Party" />
-        <item itemvalue="Application.PB01_Parking_Lot" />
+        <item itemvalue="Application.PB06_Fix_Emails" />
+        <item itemvalue="Application.PB05_Phonebook" />
+        <item itemvalue="Application.PB04_Count_Symbols" />
+        <item itemvalue="Application.PB03_Periodic_Table" />
+        <item itemvalue="Application.PB02_Sets_of_Elements" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,37 @@
           <line>22</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LAB/PB07_Cities_by_Continent_and_Country.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LAB/PB09_Largest_3_Numbers.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercises/PB03_Periodic_Table.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercises/PB05_Phonebook.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercises/PB06_Fix_Emails.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((HashMap.Node)studentsMap.entrySet().toArray()[2]).getValue()" custom="java.util.HashMap.Node" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
