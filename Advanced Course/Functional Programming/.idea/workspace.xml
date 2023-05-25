@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ff5a804-1383-403e-b42b-21be4759568d" name="Changes" comment="" />
+    <list default="true" id="77e7617b-4692-4036-a872-5040c77b94f0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,32 +20,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2QETfnwvgQuVvL2osF6xjoLFHiz" />
+  <component name="ProjectId" id="2QH2MjHKTrWeswTZYrjSgJ4DsvZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/idaki.VENLO/Documents/GitHub/SoftUni_Java_Advanced_Course/Advanced Course/Streams, Files And Directories&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Exercises" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.PB06_Word_Count">
-    <configuration name="PB03_ALLCAPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PB03_ALLCAPS" />
-      <module name="Streams, Files And Directories" />
+}]]></component>
+  <component name="RunManager" selected="Application.PB05_Filter_by_age">
+    <configuration name="PB02_Sum_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LAB.PB02_Sum_Numbers" />
+      <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="LAB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB03_ALL_CAPITALS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PB03_ALL_CAPITALS" />
-      <module name="Streams, Files And Directories" />
+    <configuration name="PB03_Count_Uppercase_Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LAB.PB03_Count_Uppercase_Words" />
+      <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="LAB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB04_Count_Character_Types" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PB04_Count_Character_Types" />
-      <module name="Streams, Files And Directories" />
+    <configuration name="PB04_Add_VAT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LAB.PB04_Add_VAT" />
+      <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="LAB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB05_Line_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PB05_Line_Numbers" />
-      <module name="Streams, Files And Directories" />
+    <configuration name="PB05_Filter_by_age" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LAB.PB05_Filter_by_age" />
+      <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="LAB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB06_Word_Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PB06_Word_Count" />
-      <module name="Streams, Files And Directories" />
+    <configuration name="PB06_Find_Evens_or_Odds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LAB.PB06_Find_Evens_or_Odds" />
+      <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="LAB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,22 +101,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PB06_Word_Count" />
-        <item itemvalue="Application.PB05_Line_Numbers" />
-        <item itemvalue="Application.PB04_Count_Character_Types" />
-        <item itemvalue="Application.PB03_ALL_CAPITALS" />
-        <item itemvalue="Application.PB03_ALLCAPS" />
+        <item itemvalue="Application.PB05_Filter_by_age" />
+        <item itemvalue="Application.PB06_Find_Evens_or_Odds" />
+        <item itemvalue="Application.PB04_Add_VAT" />
+        <item itemvalue="Application.PB03_Count_Uppercase_Words" />
+        <item itemvalue="Application.PB02_Sum_Numbers" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ff5a804-1383-403e-b42b-21be4759568d" name="Changes" comment="" />
-      <created>1684917847731</created>
+      <changelist id="77e7617b-4692-4036-a872-5040c77b94f0" name="Changes" comment="" />
+      <created>1684996141825</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684917847731</updated>
+      <updated>1684996141825</updated>
     </task>
     <servers />
   </component>
@@ -141,9 +135,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Exercises/PB06_Word_Count.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/LAB/PB05_Filter_by_age.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LAB/PB05_Filter_by_age.java</url>
+          <line>21</line>
+          <properties class="LAB.PB05_Filter_by_age" method="printResult">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
