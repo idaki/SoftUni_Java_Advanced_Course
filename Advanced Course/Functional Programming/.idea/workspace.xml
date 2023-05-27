@@ -26,20 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PB05_Filter_by_age">
-    <configuration name="PB02_Sum_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB02_Sum_Numbers" />
+}</component>
+  <component name="RunManager" selected="Application.PB09_List_Of_Predicates">
+    <configuration name="PB04_Applied_Arithmetics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB04_Applied_Arithmetics" />
       <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB03_Count_Uppercase_Words" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB03_Count_Uppercase_Words" />
+    <configuration name="PB05_Reverse_and_Exclude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB05_Reverse_and_Exclude" />
       <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB04_Add_VAT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB04_Add_VAT" />
+    <configuration name="PB06_Predicate_for_Names" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB06_Predicate_for_Names" />
       <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB05_Filter_by_age" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB05_Filter_by_age" />
+    <configuration name="PB08_Custom_Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB08_Custom_Comparator" />
       <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PB06_Find_Evens_or_Odds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LAB.PB06_Find_Evens_or_Odds" />
+    <configuration name="PB09_List_Of_Predicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB09_List_Of_Predicates" />
       <module name="Functional Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LAB.*" />
+          <option name="PATTERN" value="Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PB05_Filter_by_age" />
-        <item itemvalue="Application.PB06_Find_Evens_or_Odds" />
-        <item itemvalue="Application.PB04_Add_VAT" />
-        <item itemvalue="Application.PB03_Count_Uppercase_Words" />
-        <item itemvalue="Application.PB02_Sum_Numbers" />
+        <item itemvalue="Application.PB09_List_Of_Predicates" />
+        <item itemvalue="Application.PB08_Custom_Comparator" />
+        <item itemvalue="Application.PB05_Reverse_and_Exclude" />
+        <item itemvalue="Application.PB06_Predicate_for_Names" />
+        <item itemvalue="Application.PB04_Applied_Arithmetics" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +138,11 @@
           <url>file://$PROJECT_DIR$/src/LAB/PB05_Filter_by_age.java</url>
           <line>66</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercises/PB04_Applied_Arithmetics.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LAB/PB05_Filter_by_age.java</url>
