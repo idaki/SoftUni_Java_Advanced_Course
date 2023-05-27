@@ -33,20 +33,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PB09_List_Of_Predicates">
-    <configuration name="PB04_Applied_Arithmetics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.PB04_Applied_Arithmetics" />
-      <module name="Functional Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PB10_Predicate_Party">
     <configuration name="PB05_Reverse_and_Exclude" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercises.PB05_Reverse_and_Exclude" />
       <module name="Functional Programming" />
@@ -99,13 +86,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PB10_Predicate_Party" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PB10_Predicate_Party" />
+      <module name="Functional Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PB10_Predicate_Party" />
         <item itemvalue="Application.PB09_List_Of_Predicates" />
         <item itemvalue="Application.PB08_Custom_Comparator" />
         <item itemvalue="Application.PB05_Reverse_and_Exclude" />
         <item itemvalue="Application.PB06_Predicate_for_Names" />
-        <item itemvalue="Application.PB04_Applied_Arithmetics" />
       </list>
     </recent_temporary>
   </component>
