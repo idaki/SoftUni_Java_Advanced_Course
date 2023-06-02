@@ -36,32 +36,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="PB06_Pokémon_Trainer" />
       <recent name="PB04_Raw_Data_E" />
       <recent name="PB02_Company_Roster_E" />
       <recent name="PB02_Car_Constructors" />
       <recent name="PB01_Car_Info" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PB05_Car_Salesman.Main">
+  <component name="RunManager" selected="Application.PB06_Pokémon_Trainer.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PB03_Speed_Racing.Main" />
       <module name="Defining Classes" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="PB03_Speed_Racing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PB02_Company_Roster_E.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PB02_Company_Roster_E.Main" />
-      <module name="Defining Classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PB02_Company_Roster_E.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PB06_Pokémon_Trainer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PB06_Pokémon_Trainer.Main" />
+      <module name="Defining Classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PB06_Pokémon_Trainer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="Defining Classes" />
@@ -104,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PB06_Pokémon_Trainer.Main" />
         <item itemvalue="Application.PB05_Car_Salesman.Main" />
         <item itemvalue="Application.PB04_Raw_Data_E.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.PB02_Company_Roster_E.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +171,11 @@
           <url>file://$PROJECT_DIR$/src/PB04_Raw_Data_E/Car.java</url>
           <line>20</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PB06_Pokémon_Trainer/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

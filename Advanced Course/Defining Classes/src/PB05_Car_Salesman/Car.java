@@ -7,7 +7,7 @@ public class Car {
     private int weight;
     private String color;
 
-    //КОНСТРУКТОР
+
 
     public Car(String model, Engine engine, int weight, String color) {
         this.model = model;
