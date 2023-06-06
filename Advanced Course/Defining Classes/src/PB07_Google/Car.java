@@ -1,0 +1,30 @@
+package PB07_Google;
+
+public class Car {
+    private String name;
+    private String model;
+    private  int speed;
+
+    public Car(String name, String model, int speed) {
+        this.name = name;
+        this.model = model;
+        this.speed = speed;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    @Override
+    public String toString() {
+        return model + " " + speed;
+    }
+}

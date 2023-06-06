@@ -7,7 +7,7 @@ public class Car {
     private int weight;
     private String color;
 
-
+    //КОНСТРУКТОР
 
     public Car(String model, Engine engine, int weight, String color) {
         this.model = model;
@@ -35,10 +35,10 @@ public class Car {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(); //""
 
-        sb.append(this.model).append(":").append(System.lineSeparator());
-        sb.append(this.engine.getModel()).append(":").append(System.lineSeparator());
+        sb.append(this.model).append(":").append(System.lineSeparator()); //модел на колата
+        sb.append(this.engine.getModel()).append(":").append(System.lineSeparator()); //модел на двигателя на колата
         sb.append("Power: ").append(this.engine.getPower()).append(System.lineSeparator());
 
 
@@ -52,6 +52,7 @@ public class Car {
 
 
         sb.append("Efficiency: ");
+        //нямаме = null; имаме = текст
         if (this.engine.getEfficiency() == null) {
             sb.append("n/a").append(System.lineSeparator());
         } else {
