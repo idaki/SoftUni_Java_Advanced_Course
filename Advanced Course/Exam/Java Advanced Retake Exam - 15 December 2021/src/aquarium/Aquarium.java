@@ -34,8 +34,8 @@ public class Aquarium {
     }
 
     public int getFishInPool() {
-        int fishNumber = this.fishInPool.size();
-        return fishNumber;
+        return this.fishInPool.size();
+
     }
 
     public void add(Fish fish) {
@@ -79,11 +79,11 @@ public class Aquarium {
         return true;
     }
 
-    public String report(){
-      StringBuilder sb = new StringBuilder();
-      sb.append("Aquarium Info:\n");
-      sb.append("Aquarium: ").append(this.name).append(" ^ ").append(this.getSize()).append("\n");
-      this.fishInPool.forEach(e->sb.append(e).append("\n"));
-return sb.toString();
+    public String report() {
+        StringBuilder sb = new StringBuilder();
+       // sb.append("Aquarium Info:\n");
+        sb.append("Aquarium: ").append(this.name).append(" ^ ").append("Size: ").append(this.getSize()).append("\n");
+        this.fishInPool.forEach(e -> sb.append(e).append("\n"));
+        return sb.toString().trim();
     }
 }
