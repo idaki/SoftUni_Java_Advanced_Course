@@ -30,54 +30,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/idaki.VENLO/Documents/GitHub/SoftUni_Java_Advanced_Course/Advanced Course/Generics/src/PB04_Generic_Swap_Method_String_Integers",
+    "last_opened_file_path": "C:/Users/idaki.VENLO/Documents/GitHub/SoftUni_Java_Advanced_Course/Advanced Course/Generics/src/PB05_Generic_Count_Method_Double",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="PB08_Custom_List_Sorter" />
+      <recent name="PB07_Custom_List" />
       <recent name="PB02_Generic_Box_of_Integer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\idaki.VENLO\Documents\GitHub\SoftUni_Java_Advanced_Course\Advanced Course\Generics\src\PB05_Generic_Count_Method_Double" />
       <recent name="C:\Users\idaki.VENLO\Documents\GitHub\SoftUni_Java_Advanced_Course\Advanced Course\Generics\src\PB04_Generic_Swap_Method_String_Integers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="PB02_Generic_Box_of_Integer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PB05_Generic_Count_Method_String.Main">
+  <component name="RunManager" selected="Application.PB08_Custom_List_Sorter.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PB01_Generic_Box.Main" />
+      <option name="MAIN_CLASS_NAME" value="PB07_Custom_List.Main" />
       <module name="Generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PB01_Generic_Box.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PB02_Generic_Box_of_Integer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PB02_Generic_Box_of_Integer.Main" />
-      <module name="Generics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PB02_Generic_Box_of_Integer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PB03_Generic_Swap_Method_String.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PB03_Generic_Swap_Method_String.Main" />
-      <module name="Generics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PB03_Generic_Swap_Method_String.*" />
+          <option name="PATTERN" value="PB07_Custom_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,13 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PB06_Generic_Count_Method_Double.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PB06_Generic_Count_Method_Double.Main" />
+      <module name="Generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PB06_Generic_Count_Method_Double.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PB08_Custom_List_Sorter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PB08_Custom_List_Sorter.Main" />
+      <module name="Generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PB08_Custom_List_Sorter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PB08_Custom_List_Sorter.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PB06_Generic_Count_Method_Double.Main" />
         <item itemvalue="Application.PB05_Generic_Count_Method_String.Main" />
         <item itemvalue="Application.PB04_Generic_Swap_Method_String_Integers.PB03_Generic_Swap_Method_String.Main" />
-        <item itemvalue="Application.PB03_Generic_Swap_Method_String.Main" />
-        <item itemvalue="Application.PB02_Generic_Box_of_Integer.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,8 +151,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PB05_Generic_Count_Method_String/Main.java</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PB06_Generic_Count_Method_Double/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
