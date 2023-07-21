@@ -1,36 +1,50 @@
 package PB03_Birthday_Celebrations;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
-        List<Birthable> birthableObjects = new ArrayList<>();
-        String line;
 
-        while(!"End".equals(line= scanner.nextLine())){
-            String[] tokens = line.split("\\s+");
+        List<Birthable> birthables = new ArrayList<>();
 
-            if (tokens[0].equals("Citizen")){
-                String name= tokens[1];
-                int age  = Integer.parseInt(tokens[2]);
-                String id= tokens[3];
-                String birthDate = tokens[4];
-                birthableObjects.add(new Citizen(name, age, id, birthDate));
+        String input = scanner.nextLine();
 
-            } else if(tokens[0].equals("Pet")){
-               String name= tokens[1];
-               String birthDate = tokens[2];
-                birthableObjects.add(new Pet(name,birthDate));
+        while (!"End".equals(input)) {
+            String[] inputData = input.split("\\s+");
+            String type = inputData[0];
+            String name = null;
+            String birthDate = null;
+            switch (type) {
+                case "Pet":
+                    name = inputData[1];
+                    birthDate = inputData[2];
+                    Pet currentPet = new Pet(name, birthDate);
+                    birthables.add(currentPet);
+                    break;
+                case "Citizen":
+                    name = inputData[1];
+                    int age = Integer.parseInt(inputData[2]);
+                    String id = inputData[3];
+                    birthDate = inputData[4];
+                    Citizen currentCitizen = new Citizen(name, age, id, birthDate);
+                    birthables.add(currentCitizen);
+                    break;
             }
+
+
+            input = scanner.nextLine();
         }
-        String yearToCheck = scanner.nextLine();
-        birthableObjects.stream().
-                filter(i->i.getBirthDate().
-                        endsWith(yearToCheck)).
-                forEach(i-> System.out.println(i.getBirthDate()));
+
+        String birthDayToSearchFor = scanner.nextLine();
+
+        birthables.stream()
+                .filter(item -> item.getBirthDate().contains(birthDayToSearchFor))
+                .forEach(e -> System.out.println(e.getBirthDate()));
 
 
     }

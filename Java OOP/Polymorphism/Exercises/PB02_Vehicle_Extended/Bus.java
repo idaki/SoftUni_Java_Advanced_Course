@@ -20,6 +20,7 @@ public class Bus extends VehicleImpl {
 
     @Override
     public void setFuelConsumption(double fuelConsumption) {
+        // TODO check if isEmpty and setFuelConsumption
         super.setFuelConsumption(fuelConsumption);
     }
 

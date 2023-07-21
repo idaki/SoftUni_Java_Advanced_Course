@@ -1,12 +1,13 @@
 package PB03_Birthday_Celebrations;
 
 public class Pet implements Birthable {
+
     private String name;
     private String birthDate;
 
-    public Pet(String name, String birthDay) {
+    public Pet(String name, String birthDate) {
         this.name = name;
-        this.birthDate = birthDay;
+        this.birthDate = birthDate;
     }
 
     public String getName() {
@@ -15,6 +16,6 @@ public class Pet implements Birthable {
 
     @Override
     public String getBirthDate() {
-        return this.birthDate;
+        return birthDate;
     }
 }

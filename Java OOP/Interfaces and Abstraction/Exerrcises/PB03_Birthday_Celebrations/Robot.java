@@ -2,19 +2,20 @@ package PB03_Birthday_Celebrations;
 
 public class Robot implements Identifiable {
     private String id;
-    private String Model;
+
+    private String model;
 
     public Robot(String id, String model) {
         this.id = id;
-        Model = model;
+        this.model = model;
+    }
+
+    public String getModel() {
+        return model;
     }
 
     @Override
     public String getId() {
-        return this.id;
-    }
-
-    public String getModel() {
-        return Model;
+        return id;
     }
 }
