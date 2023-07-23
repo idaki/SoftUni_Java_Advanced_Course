@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ca7e61d-5391-4a48-97c9-758088d85525" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Reflections/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflections/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflections/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflections/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflections/Reflections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Skeletons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/core/factories/UnitFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/data/UnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/interfaces/Attacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/interfaces/CommandInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/interfaces/Destroyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/interfaces/Executable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/interfaces/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/barracksWars/interfaces/Unit.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SyosHSEeknbueccmFSX0qRBPqk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/idaki/Documents/GitHub/SoftUni/SoftUni_Java_Advanced_Course/Java OOP/Reflection/Exercises/Skeletons/barracksWars/interfaces"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/barracksWars/models/units" />
+      <recent name="$PROJECT_DIR$/barracksWars/interfaces" />
+      <recent name="$PROJECT_DIR$/barracksWars/data" />
+      <recent name="$PROJECT_DIR$/barracksWars/core" />
+      <recent name="$PROJECT_DIR$/barracksWars/core/factories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="barracksWars.Main" />
+      <module name="Skeletons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="barracksWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ca7e61d-5391-4a48-97c9-758088d85525" name="Changes" comment="" />
+      <created>1690128388435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690128388435</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
