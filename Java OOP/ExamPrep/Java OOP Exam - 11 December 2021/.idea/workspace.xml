@@ -1,39 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9170f6d7-a09f-41af-a0ae-abeeb0c78991" name="Changes" comment="" />
+    <list default="true" id="5ce6f663-a4bf-4956-8581-cafa7534edb7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/christmasRaces/entities/BaseCar.java" root0="SKIP_INSPECTION" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2SvQiB7oR2FYVnw6zEcBNxFkE26" />
+  <component name="ProjectId" id="2SwJSL4HB0bTyhY7A17jDEUbj5W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
@@ -47,14 +27,34 @@
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="catHouse.Main" />
+      <module name="Java OOP Exam - 11 December 2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="catHouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9170f6d7-a09f-41af-a0ae-abeeb0c78991" name="Changes" comment="" />
-      <created>1690024701686</created>
+      <changelist id="5ce6f663-a4bf-4956-8581-cafa7534edb7" name="Changes" comment="" />
+      <created>1690051710543</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1690024701686</updated>
+      <updated>1690051710543</updated>
     </task>
     <servers />
   </component>
@@ -68,5 +68,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/catHouse/core/EngineImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
