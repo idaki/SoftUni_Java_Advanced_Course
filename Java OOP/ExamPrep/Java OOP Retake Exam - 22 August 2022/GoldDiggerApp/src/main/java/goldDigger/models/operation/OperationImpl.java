@@ -13,20 +13,19 @@ public class OperationImpl implements Operation {
 
 
     @Override
-    public void startOperation(Spot spot, Collection<Discoverer> spots) {
-        Discoverer discoverer = spots.stream()
-                .filter(Discoverer::canDig)
-                .findFirst()
-                .orElse(null);
+    public void startOperation(Spot spot, Collection<Discoverer> discoverers) {
+
         List<String> exhibits = new ArrayList<>(spot.getExhibits());
 
-
-        while (discoverer != null && exhibits.stream().iterator().hasNext()) {
-            discoverer.dig();
-            String currentExhibit = exhibits.stream().iterator().next();
-            discoverer.getMuseum().getExhibits().add(currentExhibit);
-            exhibits.remove(currentExhibit);
+        for (Discoverer discoverer: discoverers) {
+            while (discoverer.canDig() && exhibits.stream().iterator().hasNext()) {
+                discoverer.dig();
+                String currentExhibit = exhibits.stream().iterator().next();
+                discoverer.getMuseum().getExhibits().add(currentExhibit);
+                exhibits.remove(currentExhibit);
+            }
         }
+
     }
 }
 

@@ -40,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/idaki.VENLO/Documents/GitHub/SoftUni_Java_Advanced_Course/Java OOP/ExamPrep/Java OOP Retake Exam - 22 August 2022/GoldDiggerApp",
+    "last_opened_file_path": "C:/Users/idaki.VENLO/Documents/GitHub/SoftUni_Java_Advanced_Course/Java OOP/ExamPrep/Java OOP Retake Exam - 22 August 2022/ArcheologicalExcavations",
     "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
@@ -96,18 +96,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/goldDigger/core/ControllerImpl.java</url>
-          <line>131</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/goldDigger/core/ControllerImpl.java</url>
-          <line>83</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="2" />
+          <line>126</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GoldDiggerApp$Main.ic" NAME="Main Coverage Results" MODIFIED="1690462625463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>goldDigger.*</FILTER>
+    </SUITE>
   </component>
 </project>

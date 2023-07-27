@@ -81,7 +81,6 @@ public class ControllerImpl implements Controller {
         finalSpotsInspected++;
         Spot spot = spotRepository.byName(spotName);
         //todo check the count
-        long excludedDiscoverersCount = discovererRepository.getCollection().stream().filter(d->d.getEnergy()<=45).count();
 
         Collection<Discoverer> discoverers = discovererRepository.getCollection().stream()
                 .filter(d -> d.getEnergy() > 45)
@@ -92,7 +91,7 @@ public class ControllerImpl implements Controller {
         }
         Operation operation = new OperationImpl();
         operation.startOperation(spot, discoverers);
-
+        long excludedDiscoverersCount = discovererRepository.getCollection().stream().filter(d->d.getEnergy()==0).count();
 
 
         return String.format(ConstantMessages.INSPECT_SPOT
@@ -125,7 +124,8 @@ public class ControllerImpl implements Controller {
                 List<String> exhibits = new ArrayList<>(discover.getMuseum().getExhibits());
                 String museumsPrint = String.join(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS_DELIMITER
                         , exhibits);
-                sb.append(String.join(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS, museumsPrint));
+                sb.append(String.format(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS, museumsPrint))
+                        .append(System.lineSeparator());
             }
         }
 
