@@ -5,6 +5,7 @@ import magicGame.models.magicians.BlackWidow;
 import magicGame.models.magicians.Magician;
 import magicGame.models.magicians.Wizard;
 import magicGame.models.magics.Magic;
+import magicGame.utils.MagicUtils;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,38 +18,31 @@ public class RegionImpl implements Region {
     @Override
     public String start(Collection<Magician> magicians) {
 
-
         List<Magician> wizardList = new ArrayList<>(magicians.stream()
-                .filter(m -> m.getClass().getSimpleName().equals("Wizard"))
+                .filter(m -> m.getClass().getSimpleName().equals("Wizard") && m.isAlive())
                 .collect(Collectors.toList()));
         List<Magician> blackWidowList = new ArrayList<>(magicians.stream()
-                .filter(m -> m.getClass().getSimpleName().equals("BlackWidow"))
+                .filter(m -> m.getClass().getSimpleName().equals("BlackWidow") && m.isAlive())
                 .collect(Collectors.toList()));
 
-        wizardList.stream()
-                .anyMatch(Magician::isAlive);
 
         Magician wizard = wizardList.iterator().next();
         Magician blackWidow = blackWidowList.iterator().next();
 
 
-        while (wizardList.stream().anyMatch(Magician::isAlive)
-                && blackWidowList.stream().anyMatch(Magician::isAlive) ){
+        while(!wizardList.isEmpty() && !blackWidowList.isEmpty()){
 
-            int hitPointBW= blackWidow.getMagic().fire();
-            int hitPointsW= wizard.getMagic().fire();
-
-            blackWidow.takeDamage(hitPointsW);
-            wizard.takeDamage(hitPointBW);
-
-            if (!blackWidow.isAlive()){
+            blackWidow.takeDamage(wizard.getMagic().fire());
+            if (blackWidow.isAlive()){
+                wizard.takeDamage(blackWidow.getMagic().fire());
+                if (!wizard.isAlive()){
+                    wizardList.remove(wizard);
+                    wizard = wizardList.iterator().next();
+                }
+            } else {
+                blackWidowList.remove(blackWidow);
                 blackWidow = blackWidowList.iterator().next();
             }
-
-            if (!wizard.isAlive()){
-                wizard = wizardList.iterator().next();
-            }
-
         }
 
         if (wizardList.stream().anyMatch(Magician::isAlive)) {

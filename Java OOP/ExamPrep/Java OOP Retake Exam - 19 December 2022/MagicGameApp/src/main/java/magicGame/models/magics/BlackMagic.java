@@ -16,7 +16,7 @@ public class BlackMagic extends MagicImpl {
         if (!areBulletsEnough) {
             return 0;
         } else {
-            this.setBulletsCount(super.getBulletsCount() - BULLETS_PER_FIRE);
+            this.setBulletsCount(this.getBulletsCount() - BULLETS_PER_FIRE);
             return BULLETS_PER_FIRE;
         }
     }

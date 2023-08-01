@@ -77,7 +77,7 @@ public abstract class MagicianImpl implements Magician{
 //Todo could be false logic
     @Override
     public void takeDamage(int points) {
-        boolean isProtectionEnough = this.protection<= points ;
+        boolean isProtectionEnough = this.protection>= points ;
         if (isProtectionEnough){
             this.protection -= points;
 

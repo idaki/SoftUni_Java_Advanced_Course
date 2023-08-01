@@ -36,7 +36,5 @@ public abstract class MagicImpl implements Magic {
     }
 //todo find the logic and implement
     @Override
-    public int fire() {
-        return 0;
-    }
+    public abstract int fire();
 }

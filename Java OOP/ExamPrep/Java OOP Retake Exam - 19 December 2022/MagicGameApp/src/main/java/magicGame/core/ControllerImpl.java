@@ -14,11 +14,10 @@ import magicGame.models.region.RegionImpl;
 import magicGame.repositories.interfaces.MagicRepositoryImpl;
 import magicGame.repositories.interfaces.MagicianRepository;
 import magicGame.repositories.interfaces.MagicianRepositoryImpl;
+import magicGame.utils.MagicUtils;
+import magicGame.utils.MagicianUtils;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ControllerImpl implements Controller {
@@ -34,16 +33,15 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String addMagic(String type, String name, int bulletsCount) {
-        Magic magic;
+        Magic magic = null;
 
-        if ("RedMagic".equals(type)) {
+        if (!MagicUtils.isMagicValid(type)) {
+            throw new IllegalArgumentException(ExceptionMessages.INVALID_MAGIC_TYPE);
+        } else if ("RedMagic".equals(type)) {
             magic = new RedMagic(name, bulletsCount);
         } else if ("BlackMagic".equals(type)) {
             magic = new BlackMagic(name, bulletsCount);
-        } else {
-            throw new IllegalArgumentException(ExceptionMessages.INVALID_MAGIC_TYPE);
         }
-
         this.magics.addMagic(magic);
 
         return String.format(OutputMessages.SUCCESSFULLY_ADDED_MAGIC, name);
@@ -51,18 +49,19 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String addMagician(String type, String username, int health, int protection, String magicName) {
-        Magician magician;
+//    AddMagician              BlackWidow   magicianPeter    30            30               Luna
+        Magician magician = null;
         Magic magic = magics.findByName(magicName);
-        if ("Wizard".equals(type)) {
+
+        if (magic == null) {
+            throw new NullPointerException(ExceptionMessages.MAGIC_CANNOT_BE_FOUND);
+        } else if (!MagicianUtils.isMagicianTypeValid(type)) {
+            throw new IllegalArgumentException(ExceptionMessages.INVALID_MAGICIAN_TYPE);
+        } else if ("Wizard".equals(type)) {
             magician = new Wizard(username, health, protection, magic);
         } else if ("BlackWidow".equals(type)) {
             magician = new BlackWidow(username, health, protection, magic);
-        } else if (magic == null) {
-            throw new NullPointerException(ExceptionMessages.MAGIC_CANNOT_BE_FOUND);
-        } else {
-            throw new IllegalArgumentException(ExceptionMessages.INVALID_MAGICIAN_TYPE);
         }
-
         this.magicians.addMagician(magician);
 
         return String.format(OutputMessages.SUCCESSFULLY_ADDED_MAGICIAN, username);
@@ -70,6 +69,9 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String startGame() {
+
+
+
         return region.start(magicians.getData());
     }
 
@@ -80,7 +82,7 @@ public class ControllerImpl implements Controller {
 
         magicianList.sort(Comparator.comparing(Magician::getHealth));
         magicianList.sort(Comparator.comparing(Magician::getUsername));
-        magicianList.sort(Comparator.comparing(m->m.getClass().getSimpleName()));
+        magicianList.sort(Comparator.comparing(m -> m.getClass().getSimpleName()));
 
 
         for (Magician magician : magicianList) {
