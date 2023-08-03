@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class WorkerRepository implements Repository<Worker> {
-    private Collection<Worker> workers;
+    Collection<Worker> workers;
 
     public WorkerRepository() {
         this.workers = new ArrayList<>();
@@ -14,7 +14,7 @@ public class WorkerRepository implements Repository<Worker> {
 
     @Override
     public Collection<Worker> getWorkers() {
-        return workers;
+        return this.workers;
     }
 
     @Override
@@ -29,10 +29,6 @@ public class WorkerRepository implements Repository<Worker> {
 
     @Override
     public Worker findByName(String name) {
-        return workers.stream()
-                .filter(w -> w.getName()
-                        .equals(name))
-                .findFirst()
-                .orElse(null);
+        return workers.stream().filter(w->w.getName().equals(name)).findFirst().orElse(null);
     }
 }

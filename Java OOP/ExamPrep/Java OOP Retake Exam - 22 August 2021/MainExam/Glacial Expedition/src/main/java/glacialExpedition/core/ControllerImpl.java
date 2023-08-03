@@ -84,8 +84,8 @@ public class ControllerImpl implements Controller {
         Mission mission = new MissionImpl();
         mission.explore(state, explorers);
         String pattern = ConstantMessages.STATE_EXPLORER;
-        int finalExplorerCount = explorers.size();
-        int countRetiredExplorers = finalExplorerCount - initialExplorerCount;
+        int countRetiredExplorers = explorers.stream().filter(e->!e.canSearch()).collect(Collectors.toList()).size();
+
         countExploredStates++;
         return String.format(pattern,
                 stateName, countRetiredExplorers);

@@ -7,32 +7,26 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ShopImpl implements Shop {
-
-
     @Override
     public void craft(Present present, Helper helper) {
         Collection<Instrument> instruments = helper.getInstruments();
 
         while (helper.canWork()
                 && !present.isDone()
-                && instruments.stream().filter(i->!i.isBroken()).iterator().hasNext()) {
+                && instruments.stream().filter(i->!i.isBroken())
+                .iterator().hasNext()) {
+            Instrument instrument = instruments.stream()
+                    .filter(i->!i.isBroken())
+                    .iterator().next();
 
-            Instrument currentInstrument = instruments.iterator().next();
             helper.work();
             present.getCrafted();
-            currentInstrument.use();
-
-
-            if (currentInstrument.isBroken()) {
-
-                    currentInstrument = instruments.iterator().next();
-                }
-            }
-
+            instrument.use();
         }
+
+
+
+    }
+
+
 }
-
-
-
-
-

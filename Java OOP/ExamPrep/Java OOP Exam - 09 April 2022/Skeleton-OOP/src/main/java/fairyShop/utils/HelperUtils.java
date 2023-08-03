@@ -3,6 +3,9 @@ package fairyShop.utils;
 import fairyShop.models.Happy;
 import fairyShop.models.Helper;
 import fairyShop.models.Instrument;
+import fairyShop.models.Sleepy;
+
+import java.util.Collection;
 
 public abstract class HelperUtils {
     private HelperUtils() {
@@ -17,7 +20,7 @@ public abstract class HelperUtils {
         if ("Happy".equals(type)) {
             helper = new Happy(name);
         } else if ("Sleepy".equals(type)) {
-            helper = new Happy(name);
+            helper = new Sleepy(name);
         }
         return helper;
     }

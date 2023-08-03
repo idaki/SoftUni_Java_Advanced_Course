@@ -1,16 +1,19 @@
 package vehicleShop.models.tool;
 
 import vehicleShop.common.ExceptionMessages;
+import vehicleShop.utils.IntegerUtils;
 
 public class ToolImpl implements Tool {
+
+    private static final int POWER_DECREASE_FACTOR = 5;
     private int power;
 
     public ToolImpl(int power) {
         this.setPower(power);
     }
 
-    public void setPower(int power) {
-        if (power < 0) {
+    private void setPower(int power) {
+        if (IntegerUtils.isNegativeNumber(power)) {
             throw new IllegalArgumentException(ExceptionMessages.TOOL_POWER_LESS_THAN_ZERO);
         }
         this.power = power;
@@ -23,15 +26,16 @@ public class ToolImpl implements Tool {
 
     @Override
     public void decreasesPower() {
-        this.power -= 5;
-        if (this.power < 0) {
-            this.power = 0;
+        int newPower = this.power - POWER_DECREASE_FACTOR;
+        if (newPower < 0) {
+            newPower = 0;
         }
+        this.setPower(newPower);
 
     }
 
     @Override
     public boolean isUnfit() {
-        return this.power <= 0;
+        return this.power == 0;
     }
 }

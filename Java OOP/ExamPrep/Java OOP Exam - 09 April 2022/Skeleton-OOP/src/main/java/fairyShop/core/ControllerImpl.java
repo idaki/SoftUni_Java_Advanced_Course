@@ -7,7 +7,6 @@ import fairyShop.repositories.HelperRepository;
 import fairyShop.repositories.PresentRepository;
 import fairyShop.utils.HelperUtils;
 
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -47,6 +46,7 @@ public class ControllerImpl implements Controller {
         if (!HelperUtils.helperIsExisting(helper)) {
             throw new IllegalArgumentException(ExceptionMessages.HELPER_DOESNT_EXIST);
         }
+
         helper.addInstrument(instrument);
 
         return String.format(ConstantMessages.SUCCESSFULLY_ADDED_INSTRUMENT_TO_HELPER
@@ -63,69 +63,43 @@ public class ControllerImpl implements Controller {
 
     @Override
     public String craftPresent(String presentName) {
-        List<Helper> helpers = helperRepository.getModels().stream().filter(helper -> helper.getEnergy() > 50)
+        Present present = presentRepository.findByName(presentName);
+        List<Helper> helpers = helperRepository
+                .getModels().stream()
+                .filter(h -> h.getEnergy() > 50)
                 .collect(Collectors.toList());
+
         if (helpers.isEmpty()) {
             throw new IllegalArgumentException(ExceptionMessages.NO_HELPER_READY);
         }
-
-        Present present = presentRepository.findByName(presentName);
         Shop shop = new ShopImpl();
         int brokenInstruments = 0;
 
-        while (!helpers.isEmpty()&& !present.isDone()){
-            Helper helper = helpers.get(0);
-            shop.craft(present,helper);
-            brokenInstruments +=helper.getInstruments().stream().filter(Instrument::isBroken).count();
-            if (!helper.canWork()|| helper.getInstruments().stream().noneMatch(t->!t.isBroken())){
-                helpers.remove(helper);
+        for (Helper helper : helpers) {
+           if (present.isDone()){
+               break;
+           }
+
+            shop.craft(present, helper);
+
+            if (present.isDone()) {
+                countDonePresents++;
             }
-
+            brokenInstruments += helper.getInstruments().stream().filter(Instrument::isBroken).count();
         }
 
-        if (present.isDone()) {
-            return String.format(ConstantMessages.PRESENT_DONE, presentName, "done") +
-                    String.format(ConstantMessages.COUNT_BROKEN_INSTRUMENTS, brokenInstruments);
-        }
-        return String.format(ConstantMessages.PRESENT_DONE, presentName, "not done") +
-                String.format(ConstantMessages.COUNT_BROKEN_INSTRUMENTS, brokenInstruments);
+
+        String pattern = ConstantMessages.PRESENT_DONE
+                + ConstantMessages.COUNT_BROKEN_INSTRUMENTS;
 
 
-        //
-        //
-        //
-        //        Shop shop = new ShopImpl(); //магазин -> making
-        //        int brokenTools = 0; //счупени инструменти
-        //        while (!availableWorkers.isEmpty() && !vehicle.reached()) {
-        //            Worker worker = availableWorkers.get(0);
-        //            shop.make(vehicle, worker);
-        //            brokenTools += worker.getTools().stream().filter(Tool::isUnfit).count();
-        //
-        //            if (!worker.canWork() || worker.getTools().stream().noneMatch(t -> !t.isUnfit())) {
-        //                //не може да работи -> или няма сила, или няма инструменти
-        //                availableWorkers.remove(worker);
-        //            }
-        //        }
-        //
-        //        //или са свършили работниците, или колата е готова
-        //        if (vehicle.reached()) {
-        //            //готова кола
-        //            countMadeVehicle++;
-        //            return String.format(ConstantMessages.VEHICLE_DONE, vehicle.getName(), "done")
-        //                    + String.format(ConstantMessages.COUNT_BROKEN_INSTRUMENTS, brokenTools);
-        //        } else {
-        //            //колата не е завършена
-        //            return String.format(ConstantMessages.VEHICLE_DONE, vehicle, "not done")
-        //                    + String.format(ConstantMessages.COUNT_BROKEN_INSTRUMENTS, brokenTools);
-        //        }
+        return String.format(pattern
+                , presentName
+                , present.isDone()
+                        ? "done"
+                        : "not done"
+                , brokenInstruments); //count to add
     }
-
-
-
-
-
-
-
 
     @Override
     public String report() {

@@ -1,44 +1,45 @@
 package vehicleShop.models.worker;
 
+import vehicleShop.common.ConstantMessages;
 import vehicleShop.common.ExceptionMessages;
 import vehicleShop.models.tool.Tool;
+import vehicleShop.utils.IntegerUtils;
+import vehicleShop.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.stream.Collectors;
+
 
 public abstract class BaseWorker implements Worker {
+
+
     private String name;
     private int strength;
     private Collection<Tool> tools;
 
-    public BaseWorker(String name, int strength) {
+    protected BaseWorker(String name, int strength) {
         this.setName(name);
         this.setStrength(strength);
         this.tools = new ArrayList<>();
     }
 
-    public void setName(String name) {
-        if (name == null || name.equals("")) {
+    protected void setName(String name) {
+        if (StringUtils.isNullOrEmptyString(name)) {
             throw new IllegalArgumentException(ExceptionMessages.WORKER_NAME_NULL_OR_EMPTY);
         }
         this.name = name;
     }
 
-    public void setStrength(int strength) {
-        if (strength < 0) {
+    protected void setStrength(int strength) {
+        if (IntegerUtils.isNegativeNumber(strength)) {
             throw new IllegalArgumentException(ExceptionMessages.WORKER_STRENGTH_LESS_THAN_ZERO);
         }
         this.strength = strength;
     }
 
     @Override
-    public void working() {
-        this.strength -= 10;
-
-        if (this.strength < 0) {
-            this.strength = 0;
-        }
-    }
+    public abstract void working();
 
     @Override
     public void addTool(Tool tool) {
@@ -47,6 +48,7 @@ public abstract class BaseWorker implements Worker {
 
     @Override
     public boolean canWork() {
+
         return this.strength > 0;
     }
 
@@ -62,6 +64,19 @@ public abstract class BaseWorker implements Worker {
 
     @Override
     public Collection<Tool> getTools() {
-        return tools;
+        return this.tools;
+    }
+
+    @Override
+    public String toString() {
+       String pattern = ConstantMessages.NAME
+            + ConstantMessages.STRENGTH
+            + System.lineSeparator()
+               + ConstantMessages.TOOLS;
+
+       int countTools = (int) this.tools.stream().filter(t -> !t.isUnfit()).count();
+
+        String printWorker = String.format(pattern,this.name,this.strength, countTools);
+        return printWorker;
     }
 }

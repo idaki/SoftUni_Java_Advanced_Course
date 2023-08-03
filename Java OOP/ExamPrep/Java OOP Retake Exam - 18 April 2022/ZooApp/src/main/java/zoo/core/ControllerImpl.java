@@ -75,7 +75,7 @@ public class ControllerImpl implements Controller {
         foodRepository.remove(foodFromRepo);
 
 
-        return String.format(ConstantMessages.SUCCESSFULLY_ADDED_AREA_TYPE
+        return String.format(ConstantMessages.SUCCESSFULLY_ADDED_FOOD_IN_AREA
                 , foodType
                 , areaName);
     }
@@ -91,7 +91,6 @@ public class ControllerImpl implements Controller {
         } else {
             throw new IllegalArgumentException(ExceptionMessages.INVALID_ANIMAL_TYPE);
         }
-
 
         Area area = areas.stream()
                 .filter(a -> a.getName()

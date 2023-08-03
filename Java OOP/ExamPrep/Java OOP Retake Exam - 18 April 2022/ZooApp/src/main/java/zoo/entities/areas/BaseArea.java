@@ -102,7 +102,7 @@ public abstract class BaseArea  implements Area {
         StringBuilder output = new StringBuilder()
                 .append(String.format("%s (%s):", this.name, this.getClass().getSimpleName()))
                 .append(System.lineSeparator())
-                .append("Animal: ");
+                .append("Animals: ");
 
         if (this.animals.isEmpty()) {
             output.append("none");

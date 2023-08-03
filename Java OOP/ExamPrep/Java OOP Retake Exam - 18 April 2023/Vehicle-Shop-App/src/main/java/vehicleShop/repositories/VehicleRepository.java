@@ -6,21 +6,21 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class VehicleRepository implements Repository<Vehicle> {
-    private Collection<Vehicle> vehicles;
+    Collection<Vehicle> vehicles;
 
     public VehicleRepository() {
         this.vehicles = new ArrayList<>();
     }
 
-
     @Override
     public Collection<Vehicle> getWorkers() {
-        return vehicles;
+        return this.vehicles;
     }
 
     @Override
     public void add(Vehicle model) {
         vehicles.add(model);
+
     }
 
     @Override
@@ -30,10 +30,6 @@ public class VehicleRepository implements Repository<Vehicle> {
 
     @Override
     public Vehicle findByName(String name) {
-        return vehicles.stream()
-                .filter(v -> v.getName()
-                        .equals(name))
-                .findFirst()
-                .orElse(null);
+        return vehicles.stream().filter(v->v.getName().equals(name)).findFirst().orElse(null);
     }
 }
