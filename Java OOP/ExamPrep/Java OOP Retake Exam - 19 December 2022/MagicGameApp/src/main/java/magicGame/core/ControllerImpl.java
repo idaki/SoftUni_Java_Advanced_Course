@@ -70,8 +70,6 @@ public class ControllerImpl implements Controller {
     @Override
     public String startGame() {
 
-
-
         return region.start(magicians.getData());
     }
 

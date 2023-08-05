@@ -8,15 +8,15 @@ public class BlackMagic extends MagicImpl {
         super(name, bulletsCount);
     }
 
+    private int bullets = getBulletsCount();
+
     @Override
     public int fire() {
-
-        boolean areBulletsEnough = super.getBulletsCount() - BULLETS_PER_FIRE >= 0;
-
-        if (!areBulletsEnough) {
+        if (bullets - BULLETS_PER_FIRE < 0) {
+            bullets = 0;
             return 0;
         } else {
-            this.setBulletsCount(this.getBulletsCount() - BULLETS_PER_FIRE);
+            bullets -= BULLETS_PER_FIRE;
             return BULLETS_PER_FIRE;
         }
     }
